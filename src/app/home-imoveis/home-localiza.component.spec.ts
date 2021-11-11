@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TooBarComponent } from './too-bar.component';
+import { HomeLocalizaComponent } from './home-localiza.component';
 
-describe('TooBarComponent', () => {
-  let component: TooBarComponent;
-  let fixture: ComponentFixture<TooBarComponent>;
+describe('HomeLocalizaComponent', () => {
+  let component: HomeLocalizaComponent;
+  let fixture: ComponentFixture<HomeLocalizaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TooBarComponent ]
+      declarations: [ HomeLocalizaComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TooBarComponent);
+    fixture = TestBed.createComponent(HomeLocalizaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

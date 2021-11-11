@@ -1,0 +1,42 @@
+.busca{
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0, 2px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border-radius: 60px 0;
+  width: 800px;
+  height: 100px;
+  box-shadow: 0px 8px 16px #171073;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+}
+.squat{
+  width: 150;
+  margin-left: 60px;
+  font-family: 'Amasis MT Pro Black', Times, serif;
+  margin-top: 10px;
+  float: left;
+  display: inline-block;
+}
+.button {
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0, 2px;
+  border: none;
+  background: #448ff2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border-radius: 60px 0;
+  width: 90px;
+  height: 50px;
+  box-shadow: 0px 8px 16px #171073;
+  margin-left: 650px;
+  margin-top: -100px;
+}

@@ -1,15 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Injectable, Input, Output } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-too-bar',
   templateUrl: './too-bar.component.html',
   styleUrls: ['./too-bar.component.css']
 })
-export class TooBarComponent implements OnInit {
 
-  constructor() { }
+@Injectable({
+  providedIn: 'root'
+})
 
-  ngOnInit(): void {
-  }
+export class TooBarComponent {
+
+ //@Input() ceps : Cep[] | undefined;
+
+//public findAll(){
+ /// return this.ceps;
+//}
 
 }
