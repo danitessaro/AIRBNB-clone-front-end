@@ -15,6 +15,7 @@ import { HomeListCidadesComponent } from './home-list-cidades/home-list-cidades.
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { HomeImagensComponent } from './home-imagens/home-imagens.component';
 import { HomeLocalizarComponent} from './home-localizar/home-localizar.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { HomeLocalizarComponent} from './home-localizar/home-localizar.component
     HomeLocalizarComponent,
     HomeListCidadesComponent,
     HomeImagensComponent,
+    SliderComponent,
 
   ],
   imports: [
