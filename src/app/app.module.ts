@@ -15,6 +15,7 @@ import { HomeListCidadesComponent } from './home-list-cidades/home-list-cidades.
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { HomeImagensComponent } from './home-imagens/home-imagens.component';
 import { HomeLocalizarComponent} from './home-localizar/home-localizar.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
@@ -27,7 +28,8 @@ import { SliderComponent } from './slider/slider.component';
     HomeLocalizarComponent,
     HomeListCidadesComponent,
     HomeImagensComponent,
-    SliderComponent,
+    SliderComponent
+
 
   ],
   imports: [
@@ -38,6 +40,7 @@ import { SliderComponent } from './slider/slider.component';
     MatAutocompleteModule,
     RouterModule,
     MatDatepickerModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
