@@ -17,6 +17,7 @@ import { HomeImagensComponent } from './home-imagens/home-imagens.component';
 import { HomeLocalizarComponent} from './home-localizar/home-localizar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SliderComponent } from './slider/slider.component';
+import { RegistroComponent } from './registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SliderComponent } from './slider/slider.component';
     HomeLocalizarComponent,
     HomeListCidadesComponent,
     HomeImagensComponent,
-    SliderComponent
+    SliderComponent,
+    RegistroComponent
 
 
   ],

@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeCadastroClienteComponent implements OnInit {
 
+  cadastroRealizado() {
+    alert('Cadastro Realizado com Sucesso :) !');
+ }
   constructor() { }
 
   ngOnInit(): void {

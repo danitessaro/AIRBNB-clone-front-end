@@ -1,8 +1,8 @@
 <mat-toolbar color="primary">
-  <a href="/">
+  <a [routerLink]="['/']" routerLinkActive="app.component" >
   <span>Hospedagem AnySty</span>
 </a>
-<a href="./home-list-cidades/home-list-cidades.component.html" class="button fancy-button"
+<a [routerLink]="['/home-cadastro']" routerLinkActive="home-cadastro-cliente" class="button fancy-button"
   ><i class="material-icons">search</i>Todas as cidades</a
   >
 </mat-toolbar>
